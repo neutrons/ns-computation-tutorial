@@ -162,3 +162,7 @@ cython_debug/
 # mac
 .DS_Store
 ~$*
+
+# Generated tutorial output (the notebooks regenerate these on each run)
+tutorial1/**/data/output/**
+!tutorial1/**/data/output/.gitkeep
