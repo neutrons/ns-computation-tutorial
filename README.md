@@ -1,4 +1,4 @@
-# nxs-computational-tutorial-2025
+# nxs-computational-tutorial-2026
 
 ## Agenda
 
@@ -6,15 +6,15 @@
 1. Log into `analysis.sns.gov`
 2. Run script `start_jupyter.sh` provided by Jean B. in /SNS/EXAMPLES/NXS2025/
 
-### Intro presentation (powerpoint) 30-45 mins.
- * What is scientific software (MG)
- * Version control: Git and GitHub (MG)
+### Introductory Lectures (powerpoint) 30-45 mins.
+ * Intro: What is scientific software (MG)
+ * Version control and collaboration: Git and GitHub (MG)
  * Environment management (micromamba, pixi and pip) (JB):
  * Running python options: scripts, python interpreter, IDE, jupyter (JB)
  * Intro to file systems at ORNL. Where are my neutron data stored? Oncat (AS)
- * AI (YZ)
+ * LLM in the scientific data pipeline (MD)
 
-### Tutorial
+### Tutorials
 
 #### Malcolm tutorial
 
@@ -40,34 +40,9 @@ BREAK (AS)
  * Advanced Ex 2: histogram events (with log binning)
  * Super Advanced Ex 3: Re-use fitting script, fit peaks, plot position versus experimental log.
 
-#### AI Tutorial 3
+#### Vibe coding a science app
 
- > This is not actually a tutorial but rather a brief walkthrough and showcase of LLM and relevant tools.
-
- * Brief intro to LLM and relevant techniques (e.g., `RAG`), from a research user point of view.
- * Tools for research
-    * `notebookLM`
-    * `NapkinAI`
-    * `Perplexity`
-    * image generation models/tools.
- * Tools for programming
-    * Web-based chat services (`chat.com`, `gemini`, `claude`, etc.)
-    * IDEs, such as `Cursor`, `GitHub Copilot` in `VSCode`, `Zed`, `VSCodium`, ... you name it...
-    * CLI tools, `Codex` by `OpenAI`, `Claude Code` by `Anthropic`, `Gemini CLI` by `Google`, etc.
- * Integrations
-    * Unified platform for LLMs, e.g., `OpenRouter`
-    * Self-hosted options
-        * Personal service with access to LLMs through APIs.
-        * Pay by API call, counting by input/output tokens
-        * `LobeHub`, `Dify`, etc.
-        * `Dify` as an example for demo
-            * LLMs access
-            * Tools integration, search via `Google` & `Perplexity`, `Slack`, `DALL-E`, etc.
-            * Personal knowledge base for RAG
-    * Implementation in workflow platforms
-        * `n8n` as an example
-            * Chat to GPT models in `Slack`
-            * AI summary and auto posting
+ * We will split into teams and compete to build the best app!  
 
 #### References
 
