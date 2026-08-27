@@ -60,5 +60,5 @@ __Python librairies__
 * [matplotlib](https://matplotlib.org/)
 * [numpy](https://numpy.org/)
 * [widgets](https://ipywidgets.readthedocs.io/en/latest/index.html)
-
+* [plotly](https://plotly.com/)
 __
