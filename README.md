@@ -24,10 +24,10 @@
 
  * Open notebook, Explanation of notebook (shift enter, shift enter...)
  * Cell: imports:
- * Exercise 1: Import data from ascii to numpy array. Do this multiple ways. Mention pandas.
- * Exercise 2: Plot with matplotlib. Make it interactive. Show errors?
- * Exercise 3: Extend script to for loop over multiple files
- * Exercise 4: Create widget to do Exercise 3.
+ * Demo 1: Import data from ascii to numpy array. Do this multiple ways. Mention pandas.
+ * Demo 2: Plot with matplotlib. Make it interactive. Show errors?
+ * Demo 3: Extend script to for loop over multiple files
+ * Demo 4: Create widget to do Exercise 3.
 
 BREAK (AS)
 
