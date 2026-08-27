@@ -1,0 +1,28 @@
+[workspace]
+name = "ns-computation-tutorial"
+description = "Environment for the neutron scattering computation tutorials"
+authors = ["JeanBilheux <jeanbilheux@gmail.com>"]
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-arm64", "osx-64", "win-64"]
+
+[dependencies]
+python = ">=3.11"
+numpy = "*"
+scipy = "*"
+matplotlib = "*"
+plotly = "*"
+marimo = "*"
+lmfit = "*"
+h5py = "*"
+pandas = "*"
+pillow = "*"
+jupyterlab = "*"
+ipywidgets = "*"
+ipympl = "*"
+git = "*"
+
+[pypi-dependencies]
+ipywe = "*"
+
+[tasks]
+lab = "jupyter lab"

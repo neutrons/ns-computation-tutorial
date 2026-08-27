@@ -1,0 +1,6 @@
+#!/bin/bash
+# Launch the marimo + plotly tutorial notebook in run (app) mode
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+pixi run --manifest-path "$SCRIPT_DIR/../../pixi.toml" \
+    marimo run "$SCRIPT_DIR/notebook_with_widgets_example1_plotly_marimo.py" "$@"
