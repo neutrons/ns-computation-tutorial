@@ -20,7 +20,7 @@ jupyterlab = "*"
 ipywidgets = "*"
 ipympl = "*"
 git = "*"
-pyqt5 = "*"
+pyqt = ">=5,<6"
 
 [pypi-dependencies]
 ipywe = "*"
