@@ -26,6 +26,10 @@ The timing diagram is shown below
 
 ![Timing diagram](timing_diagram.png "Timing diagram")
 
+If one histograms the events in the monitor, one should see something like
+
+![Monitor histograms](histogram.png "Monitor histograms")
+
 File structure
 --------------
 One can use hdfview on the analysis to look at the content of a raw file.
